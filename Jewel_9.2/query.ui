@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>query</class>
+ <widget class="QWidget" name="query">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>581</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>23</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正舒体</family>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);\nBackGround:Transparent</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>overview</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ranking6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>77</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正舒体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);</string>
+   </property>
+   <property name="text">
+    <string>Query：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>23</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>13</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正舒体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);</string>
+   </property>
+   <property name="text">
+    <string>Start Query</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
